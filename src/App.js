@@ -8,6 +8,7 @@ import getFormattedWeatherData from "./Components/WeatherData";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   const [query, setQuery] = useState({ q: "kolkata" });
@@ -48,6 +49,8 @@ function App() {
   };
 
   return (
+
+    <BrowserRouter basename="/WeatherNow">
     <div
       className={`mx-auto  mt-4 py-5 px-32 bg-gradient-to-br ${formatBackground()} h-fit shadow-xl shadow-gray-400`}
     >
@@ -76,6 +79,7 @@ function App() {
         newestOnTop={true}
       />
     </div>
+    </BrowserRouter>
   );
 }
 
