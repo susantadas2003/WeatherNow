@@ -85,6 +85,6 @@ function App() {
 
 export default App;
 
-// "name": "https://susantadas2003.github.io/WeatherNews",
+
 
 // max-w-screen-md

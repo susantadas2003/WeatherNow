@@ -1,5 +1,6 @@
 {
- "name": "https://susantadas2003.github.io/WeatherNow",
+ "homepage": "https://susantadas2003.github.io/WeatherNow",
+ "name":"my-app",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
